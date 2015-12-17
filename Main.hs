@@ -53,3 +53,7 @@ matPower' (Power c p) mr mp m0  | okDiff mr mr' = mr'
   where
     mp' = mmultS m0 mp
     mr' = (R.+^) mr (cTimes c mp')
+
+--Next, need to implement vector-matrix multiplication, hmmm might be able to store a bunch of vectors in a single matrix and just use matrix multiplication...
+--Also, need to provide static arrays for leech basis and rotation
+--Also, need to interface with (binary?) format for output
