@@ -17,7 +17,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/Users/michaelklein/Haskell/LeechLatticeAnimation/.cabal-sandbox/bin"
-libdir     = "/Users/michaelklein/Haskell/LeechLatticeAnimation/.cabal-sandbox/lib/x86_64-osx-ghc-7.10.2/LeechLatticeAnimation-0.1.0.0-7BudwJ3iHB3FvsVp1Ypken"
+libdir     = "/Users/michaelklein/Haskell/LeechLatticeAnimation/.cabal-sandbox/lib/x86_64-osx-ghc-7.10.2/LeechLatticeAnimation-0.1.0.0-LJSkX8mjcuDKfFngoO9yQu"
 datadir    = "/Users/michaelklein/Haskell/LeechLatticeAnimation/.cabal-sandbox/share/x86_64-osx-ghc-7.10.2/LeechLatticeAnimation-0.1.0.0"
 libexecdir = "/Users/michaelklein/Haskell/LeechLatticeAnimation/.cabal-sandbox/libexec"
 sysconfdir = "/Users/michaelklein/Haskell/LeechLatticeAnimation/.cabal-sandbox/etc"

@@ -14,6 +14,13 @@
   (major1) == 3 && (major2) <  4 || \
   (major1) == 3 && (major2) == 4 && (minor) <= 0)
 
+/* package repa-algorithms-3.4.0.2 */
+#define VERSION_repa_algorithms "3.4.0.2"
+#define MIN_VERSION_repa_algorithms(major1,major2,minor) (\
+  (major1) <  3 || \
+  (major1) == 3 && (major2) <  4 || \
+  (major1) == 3 && (major2) == 4 && (minor) <= 0)
+
 /* tool cpphs-1.19 */
 #define TOOL_VERSION_cpphs "1.19"
 #define MIN_TOOL_VERSION_cpphs(major1,major2,minor) (\
@@ -77,5 +84,5 @@
   (major1) == 0 && (major2) <  28 || \
   (major1) == 0 && (major2) == 28 && (minor) <= 0)
 
-#define CURRENT_PACKAGE_KEY "Leech_7BudwJ3iHB3FvsVp1Ypken"
+#define CURRENT_PACKAGE_KEY "Leech_LJSkX8mjcuDKfFngoO9yQu"
 
