@@ -40,7 +40,8 @@ cTimes c m = R.map (c*) m
 
 -- | gives m^(a/b) within tolerance defined in 'okDiff'. mr = result matrix, mt = this matrix, mp = m0^(some power), nxn input array
 --   This is an implementation of a matrix fourier series, centered at 'centerAt'.
--- matPower m0 a b n = matPower' (Power (centerAt**(a/b)) (a/b)) (mDiag 0) mId m0
+matPower :: R.Array R.U DIM2 Double -> Double -> Double -> R.Array R.D DIM2 Double
+matPower m0 a b = matPower' (Power (centerAt**(a/b)) (a/b)) (mDiag 0) (R.computeS mId) m0
 
 matPower' :: Power
   -> R.Array R.D DIM2 Double
