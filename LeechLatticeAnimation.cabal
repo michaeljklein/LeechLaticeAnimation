@@ -60,7 +60,7 @@ executable LeechLatticeAnimation
   -- other-extensions:    
   
   -- Other library packages from which modules are imported.
-  build-depends:       base >=4.8 && <4.9
+  build-depends:       base >=4.8 && <4.9, repa >= 3.4 && < 3.5
   
   -- Directories containing source files.
   -- hs-source-dirs:      
